@@ -41,17 +41,17 @@ if gender == 1:
     # Η εντολή μέσα σε αυτήν την if θα εκτελεστεί εφόσον ο αριθμός των παιδιών 
     # που έδωσε ο χρήστης είναι (από 1 έως και 2)
     if kids>=1 and kids<=2:
-        print ("fysiologikos pateras")
+        print "fysiologikos pateras"
 
     # Η εντολή μέσα σε αυτήν την elif θα εκτελεστεί εφόσον ο αριθμός των παιδιών 
     # που έδωσε ο χρήστης είναι (ίσος με 3)
     elif kids==3:
-        print ("triteknos pateras")
+        print "triteknos pateras"
 
     # Η εντολή μέσα σε αυτήν την elif θα εκτελεστεί εφόσον ο αριθμός των παιδιών 
     # που έδωσε ο χρήστης είναι (από 4 και πάνω)
     elif kids>=4:
-        print ("politeknos pateras")
+        print "politeknos pateras"
 
 
 # Αν/Εφόσον το φίλο που έδωσε ο χρήστης είναι ο αριθμός (2) δηλαδή Γυναίκα
@@ -61,14 +61,14 @@ elif gender == 2:
     # Η εντολή μέσα σε αυτήν την elif θα εκτελεστεί εφόσον ο αριθμός των παιδιών 
     # που έδωσε ο χρήστης είναι (από 1 έως και 2)
     if kids>=1 and kids<=2:
-        print ("fysiologikh mhtera")
+        print "fysiologikh mhtera"
     
     # Η εντολή μέσα σε αυτήν την elif θα εκτελεστεί εφόσον ο αριθμός των παιδιών 
     # που έδωσε ο χρήστης είναι (ίσος με 3)
     elif kids==3:
-        print ("triteknh mhtera")
+        print "triteknh mhtera"
 
     # Η εντολή μέσα σε αυτήν την elif θα εκτελεστεί εφόσον ο αριθμός των παιδιών 
     # που έδωσε ο χρήστης είναι (από 4 και πάνω)
     elif kids>=4:
-        print ("politeknh mhtera")
+        print "politeknh mhtera"
