@@ -39,14 +39,14 @@ grade_ekthesh = float(input("dwse vathmo ekthesh: "))
 # Υπολογίζει των μέσω όρο των βαθμών στα μαθήματα που έδωσε παραπάνω ((Ιστορία + Μαθηματικά + Έκθεση) / 3)
 mo = ((grade_istoria+grade_mathimatika+grade_ekthesh) / 3)
 
-print(mo)
+print mo
 
 
 # Η εντολή μέσα σε αυτήν την if θα εκτελεστεί εφόσον ο βαθμός στην Ιστορία ΚΑΙ ο βαθμός στα Μαθηματικά
 # ΚΑΙ ο βαθμός στην Έκθεση είναι μεγαλύτερος από 9.5
 if (grade_istoria > 9.5) and (grade_mathimatika > 9.5) and (grade_ekthesh > 9.5) or (mo >= 9):
-    print("Perase! - Mesos Oros:", mo)
+    print "Perase! - Mesos Oros:", mo
 
 # Η εντολή μέσα σε αυτήν την else θα εκτελεστεί εφόσον δεν ισχύουν η παραπάνω if/elif ή οι παραπάνω if/elif(s) 
 else:
-    print("Den Perase - Mesos Oros:", mo)
+    print "Den Perase - Mesos Oros:", mo
