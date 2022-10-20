@@ -41,7 +41,7 @@ sunolika_paidia = agoria_number + koritsia_number
 mo_paidiwn = ((agoria_number + koritsia_number) / 2)
 
 # Εμφανίζει τον Μέσο Όρο των παιδιών της Οικογένειας
-print(mo_paidiwn)
+print mo_paidiwn
 
 # Η εντολή μέσα σε αυτήν την if θα εκτελεστεί εφόσον ο συνολικός αριθμός των παιδιών
 # της οικογένειας είναι ίσος με 3
