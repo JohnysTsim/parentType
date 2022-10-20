@@ -46,25 +46,25 @@ print(mo_paidiwn)
 # Η εντολή μέσα σε αυτήν την if θα εκτελεστεί εφόσον ο συνολικός αριθμός των παιδιών
 # της οικογένειας είναι ίσος με 3
 if sunolika_paidia == 3:
-    print("Triteknh Oikogeneia")
+    print "Triteknh Oikogeneia"
 
 # Η εντολή μέσα σε αυτήν την elif θα εκτελεστεί εφόσον ο συνολικός αριθμός των παιδιών
 # της οικογένειας είναι μεγαλύτερος ή ίσος με 4
 elif sunolika_paidia >= 4:
-    print("Polyteknh Oikogeneia")
+    print "Polyteknh Oikogeneia"
 
 # Η εντολή μέσα σε αυτήν την elif θα εκτελεστεί εφόσον ο συνολικός αριθμός των παιδιών
 # της οικογένειας είναι μικρότερος από 3
 elif sunolika_paidia < 3:
-    print("Fysiologikh Oikogeneia")
+    print "Fysiologikh Oikogeneia"
 
 
 # Η εντολή μέσα σε αυτήν την if θα εκτελεστεί εφόσον ο αριθμός των Κοριτσιών της οικογένειας
 # είναι μεγαλύτερος από τον μέσο όρο
 if koritsia_number > mo_paidiwn:
-    print("Koritso Oikogeneia")
+    print "Koritso Oikogeneia"  
 
 # Η εντολή μέσα σε αυτήν την elif θα εκτελεστεί εφόσον ο αριθμός των Αγοριών της οικογένειας
 # είναι μεγαλύτερος από τον μέσο όρο
 elif agoria_number > mo_paidiwn:
-    print("Agoro Oikogeneia")
+    print "Agoro Oikogeneia"
