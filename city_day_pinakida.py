@@ -37,7 +37,7 @@ day = int(input("dwse mera: "))
 # Ζητάει από τον χρήστη να δώσει από το πληκτρολόγιο Μονά ή Ζυγά με Αριθμό, ανάλογα την πινακίδα - (1) Μονά, (2) Ζυγά
 mona_zhga = int(input("dwse mona h zhga (1 h 2): "))
 
-print("Epitrepetai na kykloforhsh stis parakatw poleis")
+print "Epitrepetai na kykloforhsh stis parakatw poleis"
 
 # Η εντολή μέσα σε αυτήν την if θα εκτελεστεί εφόσον η πόλη είναι (1), δηλαδή η Θεσσαλονίκη
 if city == 1:
@@ -47,20 +47,20 @@ if city == 1:
 
         # Η εντολή μέσα σε αυτήν την if θα εκτελεστεί εφόσον τα mona_zhga είναι (1), δηλαδή Μονά
         if mona_zhga == 1:
-            print("Ano Polh, Triandreia")
+            print "Ano Polh, Triandreia"
         # Η εντολή μέσα σε αυτήν την elif θα εκτελεστεί εφόσον τα mona_zhga είναι (2), δηλαδή ζυγά
         elif mona_zhga == 2:
-            print("Kendro, Xarilaou")
+            print "Kendro, Xarilaou"
 
     # Η εντολή μέσα σε αυτήν την elif θα εκτελεστεί εφόσον η μέρα είναι μία από τις μέρες του Σαββατοκύριακου, δηλαδή (6 ή 7)
     elif (day == 6) or (day == 7):
 
         # Η εντολή μέσα σε αυτήν την if θα εκτελεστεί εφόσον τα mona_zhga είναι (1), δηλαδή Μονά
         if mona_zhga == 1:
-            print("Toumpa, Peraia")
+            print "Toumpa, Peraia"
         # Η εντολή μέσα σε αυτήν την elif θα εκτελεστεί εφόσον τα mona_zhga είναι (2), δηλαδή ζυγά
         elif mona_zhga == 2:
-            print("Evosmos, Neapoli")
+            print "Evosmos, Neapoli"
 
 # Η εντολή μέσα σε αυτήν την elif θα εκτελεστεί εφόσον η πόλη είναι (2), δηλαδή η Αθήνα
 elif city == 2:
@@ -70,19 +70,19 @@ elif city == 2:
 
         # Η εντολή μέσα σε αυτήν την if θα εκτελεστεί εφόσον τα mona_zhga είναι (1), δηλαδή Μονά
         if mona_zhga == 1:
-            print("Xarilaou, Kifisia")
+            print "Xarilaou, Kifisia"
 
         # Η εντολή μέσα σε αυτήν την elif θα εκτελεστεί εφόσον τα mona_zhga είναι (2), δηλαδή ζυγά
         elif mona_zhga == 2:
-            print("Glyfada, Nea Smyrni")
+            print "Glyfada, Nea Smyrni"
 
     # Η εντολή μέσα σε αυτήν την elif θα εκτελεστεί εφόσον η μέρα είναι μία από τις μέρες του Σαββατοκύριακου, δηλαδή (6 ή 7)
     elif (day == 6) or (day == 7):
 
         # Η εντολή μέσα σε αυτήν την if θα εκτελεστεί εφόσον τα mona_zhga είναι (1), δηλαδή Μονά
         if mona_zhga == 1:
-            print("Kalithea, Hilton")
+            print "Kalithea, Hilton"
 
         # Η εντολή μέσα σε αυτήν την elif θα εκτελεστεί εφόσον τα mona_zhga είναι (2), δηλαδή ζυγά
         elif mona_zhga == 2:
-            print("Zwgrafou, Ampelokhpoi")
+            print "Zwgrafou, Ampelokhpoi"
