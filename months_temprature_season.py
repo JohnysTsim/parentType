@@ -41,48 +41,48 @@ temperature=float(input("dwse thermokrasia: "))
 
 # Η εντολή μέσα σε αυτήν την if θα εκτελεστεί αν ο μήνας που δώσαμε είναι ο 12ος, ο 1ος ή ο 2ος
 if month == 12 or month == 1 or month == 2:
-    print("Season: Winter", " | Month: ", month, " | Temperature: ", temperature)
+    print "Season: Winter", " | Month: ", month, " | Temperature: ", temperature
 
     # Η εντολή μέσα σε αυτήν την if θα εκτελεστεί αν η θερμοκρασία που δώσαμε είναι μικρότερη ή ίση του 0
     if temperature <=0:
-        print("Kryo")
+        print "Kryo"
     # Η εντολή μέσα σε αυτήν την elif θα εκτελεστεί αν η θερμοκρασία που δώσαμε είναι ανάμεσα στο 0 και στο 10
     # περιλαμβάνετε και το 10
     elif (temperature > 0) and (temperature <= 10):
-        print("Fysiologikh")
+        print "Fysiologikh"
     # Η εντολή μέσα σε αυτήν την elif θα εκτελεστεί αν η θερμοκρασία που δώσαμε είναι μεγαλύτερη από το 10
     elif (temperature > 10):
-        print ("Kalos Kairos!")
+        print "Kalos Kairos!"
 
 # Η εντολή μέσα σε αυτήν την elif θα εκτελεστεί αν ο μήνας που δώσαμε είναι ο 3ος, ο 4ος ή ο 5ος
 elif month == 3 or month == 4 or month == 5:
-    print("Season: Spring", " | Month: ", month, " | Temperature: ", temperature)
+    print "Season: Spring", " | Month: ", month, " | Temperature: ", temperature
 
     # Η εντολή μέσα σε αυτήν την if θα εκτελεστεί αν η θερμοκρασία που δώσαμε είναι μικρότερη ή ίση του 10
     if temperature <= 10:
-        print("Kryo")
+        print "Kryo"
     # Η εντολή μέσα σε αυτήν την elif θα εκτελεστεί αν η θερμοκρασία που δώσαμε είναι ανάμεσα στο 10 και στο 18
     # περιλαμβάνετε και το 18
     elif (temperature > 10) and (temperature <= 18):
-        print("Fysiologikh")
+        print "Fysiologikh"
     # Η εντολή μέσα σε αυτήν την elif θα εκτελεστεί αν η θερμοκρασία που δώσαμε είναι μεγαλύερη από το 18
     elif (temperature > 18):
-        print ("Kalos Kairos!")
+        print "Kalos Kairos!"
 
 # Η εντολή μέσα σε αυτήν την elif θα εκτελεστεί αν ο μήνας που δώσαμε είναι ο 9ος, ο 10ος ή ο 11ος
 elif month == 9 or month == 10 or month == 11:
-    print("Season: Autumn", " | Month: ", month, " | Temperature: ", temperature)
+    print "Season: Autumn", " | Month: ", month, " | Temperature: ", temperature
 
     # Η εντολή μέσα σε αυτήν την if θα εκτελεστεί αν η θερμοκρασία που δώσαμε είναι μικρότερη ή ίση του 10
     if temperature <= 10:
-        print("Kryo")
+        print "Kryo"
     # Η εντολή μέσα σε αυτήν την elif θα εκτελεστεί αν η θερμοκρασία που δώσαμε είναι ανάμεσα στο 10 και στο 18
     # περιλαμβάνετε και το 18
     elif (temperature > 10) and (temperature <= 18):
-        print("Fysiologikh")
+        print "Fysiologikh"
     # Η εντολή μέσα σε αυτήν την elif θα εκτελεστεί αν η θερμοκρασία που δώσαμε είναι μεγαλύερη από το 18
     elif (temperature > 18):
-        print ("Kalos Kairos!")
+        print "Kalos Kairos!"
 
 # Η εντολή μέσα σε αυτήν την elif θα εκτελεστεί αν ο μήνας που δώσαμε είναι ο 6ος, ο 7ος ή ο 8ος
 elif month == 6 or month == 7 or month == 8:
@@ -90,11 +90,11 @@ elif month == 6 or month == 7 or month == 8:
 
     # Η εντολή μέσα σε αυτήν την if θα εκτελεστεί αν η θερμοκρασία που δώσαμε είναι μικρότερη ή ίση του 25
     if temperature <= 25:
-        print("etsi kai etsi")
+        print "etsi kai etsi"
     # Η εντολή μέσα σε αυτήν την elif θα εκτελεστεί αν η θερμοκρασία που δώσαμε είναι ανάμεσα στο 25 και στο 35
     # περιλαμβάνετε και το 18
     elif (temperature > 25) and (temperature <= 35):
-        print("Kalos Kairos!")
+        print "Kalos Kairos!"
     # Η εντολή μέσα σε αυτήν την elif θα εκτελεστεί αν η θερμοκρασία που δώσαμε είναι μεγαλύερη από το 35
     elif (temperature > 35):
-        print ("Kapsonas")
+        print "Kapsonas"
